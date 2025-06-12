@@ -1,0 +1,111 @@
+* {
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: lightgrey;
+  color: black;
+}
+
+header {
+  background-color:rgb(52, 51, 51);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li {
+  background-color:rgb(61, 61, 61);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+#email {
+  margin-top: 10px;
+  color:white;
+  font-size: 1rem;
+}
+
+#email a {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#email a:hover {
+  text-decoration: underline;
+}
